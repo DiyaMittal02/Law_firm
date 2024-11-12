@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Client</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <h1>Add Client</h1>
+
+    <!-- Form to enter client details -->
+    <form method="POST" action="add_client.php">
+        <h2>Client Information</h2>
+
+        <label for="client_name">Client Name:</label>
+        <input type="text" name="client_name" required>
+
+        <label for="client_email">Client Email:</label>
+        <input type="email" name="client_email" required>
+
+        <label for="client_phone">Client Phone:</label>
+        <input type="text" name="client_phone" required>
+
+        <label for="client_address">Client Address:</label>
+        <textarea name="client_address" required></textarea>
+
+        <button type="submit" name="client_form">Add Client</button>
+    </form>
+</body>
+
+</html>
