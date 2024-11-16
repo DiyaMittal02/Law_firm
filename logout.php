@@ -1,6 +1,6 @@
-<!-- logout.php -->
 <?php
 session_start();
-session_destroy();
-header("Location: login.html");
+session_destroy(); // Destroy all sessions
+header("Location: login.php"); // Redirect to login
+exit();
 ?>
